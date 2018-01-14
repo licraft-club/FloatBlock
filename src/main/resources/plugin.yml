@@ -1,0 +1,7 @@
+name: FloatBlock
+main: com.licrafter.floatblocks.FloatBlockPlugin
+version: 1.0.0
+author: shell
+website: http://licrafter.com
+description: float block
+depend: []

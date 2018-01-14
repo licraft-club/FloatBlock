@@ -1,0 +1,6 @@
+rootProject.name = 'FloatBlock'
+include ':licraft:lib'
+include ':licraft:apt'
+
+project(':licraft:lib').projectDir = new File(rootProject.projectDir,'../LicraftLib')
+project(':licraft:apt').projectDir = new File(rootProject.projectDir,'../LicraftLib/licraft-apt')

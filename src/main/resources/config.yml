@@ -1,0 +1,10 @@
+settings:
+  language: zh
+  floatItems:
+    example:
+      lores:
+      - "float item"
+      location:
+        x: 0
+        z: 0
+        y: 2
