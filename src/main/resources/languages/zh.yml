@@ -1,2 +1,17 @@
 Language:
-  name: "哈哈哈哈"
+  commandHeader: 'command header'
+  commandPage:
+    help:
+      description: '/float'
+      info:
+      - '&2输入 &6/float 查看插件指令帮助页'
+    float:
+      description: '/float [show/hide]'
+      info:
+      - '显示或者隐藏悬浮块'
+      hover:
+      - 'show显示/hide隐藏'
+    reload:
+      description: '/floatadmin reload'
+      info:
+      - '重载插件'

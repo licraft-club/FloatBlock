@@ -4,4 +4,19 @@ version: 1.0.0
 author: shell
 website: http://licrafter.com
 description: float block
-depend: []
+contributors: [shell]
+depend: [LicraftLib]
+commands:
+  float:
+    descripton: Manage Float Items
+    usage: §c/float ? for more info
+  floatadmin:
+    description: Manage FloatBlock Plugin
+    usage: §c/floatadmin ? for more info
+permissions:
+  float.use:
+    description: Gives you access to /float
+    default: false
+  float.admin:
+    description: Gives you access to /floatadmin
+    default: op

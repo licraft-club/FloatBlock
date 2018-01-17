@@ -1,7 +1,10 @@
 package com.licrafter.floatblocks.config;
 
 import com.licraft.apt.config.ConfigBean;
+import com.licraft.apt.config.ConfigSection;
 import com.licraft.apt.config.ConfigValue;
+
+import java.util.List;
 
 /**
  * Created by shell on 2018/1/14.
@@ -13,6 +16,18 @@ public class LanguageConfig {
     @ConfigBean
     public String configPath;
 
-    @ConfigValue(path = "Language.name")
-    public String name;
+    @ConfigSection(path = "Language.commandPage")
+    public List<CmdEntry> cmdEntries;
+
+
+    public static class CmdEntry{
+        @ConfigValue(path = "description")
+        public String description;
+        @ConfigValue(path = "info")
+        public List<String> infos;
+        @ConfigValue(path = "hover")
+        public List<String> hovers;
+        @ConfigValue(valueKey = true)
+        public String valueKey;
+    }
 }

@@ -1,2 +1,7 @@
 Language:
-  name: "hahahah"
+  commandHelp:
+    commandHeader: 'command header'
+    float:
+      description: ''
+      info:
+      - '&2输入 &6/float '
